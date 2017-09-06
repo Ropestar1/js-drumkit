@@ -1,4 +1,5 @@
 .DS_Store
+.atom-live-server.json
 
 # Logs
 logs
