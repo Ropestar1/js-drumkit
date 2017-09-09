@@ -9,7 +9,7 @@ function playSound(e) {
   if (!audio) return;
 
   audio.currentTime = 0; // sets the play time of the audio to 0, starting over
-  audio.play()
+  audio.play();
 
   key.classList.add('playing'); //also can use toggle instead of add or remove
 }
