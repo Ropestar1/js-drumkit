@@ -5,5 +5,9 @@ window.addEventListener('keydown', function(e) {
   if above line were to be written in previous js syntax, I think we need to create a variable,
   concatenate a string for the attribute selector (audio[data-key='"' + variable for e.keyCode + '""'])
   */
+
+  if (!audio) return;
+
+  audio.play()
   console.log(audio);
 });
