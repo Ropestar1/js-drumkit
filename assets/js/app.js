@@ -8,6 +8,7 @@ window.addEventListener('keydown', function(e) {
 
   if (!audio) return;
 
+  audio.currentTime = 0; // sets the play time of the audio to 0, starting over
   audio.play()
   console.log(audio);
 });
